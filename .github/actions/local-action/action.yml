@@ -8,5 +8,4 @@ inputs:
 
 steps:
   -name: Publish package
-  run: npm ci
   run: npm publish
