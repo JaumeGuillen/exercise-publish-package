@@ -6,6 +6,6 @@ inputs:
     description: event object from the github context
     required: true
 
-steps:
+runs:
   -name: Publish package
   run: npm publish
