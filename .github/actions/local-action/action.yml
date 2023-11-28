@@ -9,6 +9,3 @@ inputs:
 runs:
   using: node16
   main: "dist/index.js"
-steps:
-  -name: Publish package
-  run: npm publish
