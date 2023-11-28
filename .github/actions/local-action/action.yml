@@ -6,8 +6,7 @@ inputs:
     description: event object from the github context
     required: true
 
-runs:
-  - uses: actions/checkout@v2
-  - uses: actions/setup-node@v1
-  - run: npm ci
-  - run: npm publish
+steps:
+  -name: Publish package
+  run: npm ci
+  run: npm publish
